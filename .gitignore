@@ -6,3 +6,6 @@ __pycache__/
 *.npz
 *.pt
 .venv/
+resources/**/*.pdf
+resources/repos/
+resources/data/
