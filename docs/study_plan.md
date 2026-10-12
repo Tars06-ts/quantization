@@ -19,6 +19,8 @@ Don't re-run anything. Read the code and the saved outputs in `notebooks/archive
 
 ## Phase 1: Theory (1–2 days)
 
+All links: `resources/README.md` (⭐ = must read now).
+
 ### Day 1: foundations
 | Done | Read | Focus on | Unlocks |
 |---|---|---|---|
@@ -31,9 +33,10 @@ Don't re-run anything. Read the code and the saved outputs in `notebooks/archive
 | Done | Read | Focus on | Unlocks |
 |---|---|---|---|
 | [ ] | **Q-Diffusion** (+ skim PTQ4DM) | origin of time-step-aware calibration (UNet era) | the core idea |
+| [ ] | **TDQ** | MLP predicts quant params from timestep, close to candidate direction #2 | novelty check |
 | [ ] | **PTQ4DiT** | salient channels, temporal activation variation, calibration | baseline to beat |
 | [ ] | **Q-DiT** | granularity allocation, dynamic activation quant | "dynamic" upper bound |
-| [ ] | **TQ-DiT**, **TaQ-DiT** | how they group / handle timesteps | closest competitors |
+| [ ] | **TQ-DiT**, **TaQ-DiT** | how they group / handle timesteps (TQ-DiT's TGQ = your bucketing baseline!) | closest competitors |
 | [ ] | (optional) SmoothQuant | channel-outlier migration | `notebooks/02` outlier question |
 
 For the four DiT papers: abstract, intro, method figure, experimental-setup table. Skip the proofs.
