@@ -1,0 +1,12 @@
+[project]
+name = "dtq"
+version = "0.0.1"
+description = "Time-aware post-training quantization of Diffusion Transformers"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

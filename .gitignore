@@ -1,0 +1,8 @@
+results/*
+!results/.gitkeep
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+*.npz
+*.pt
+.venv/

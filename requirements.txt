@@ -1,0 +1,17 @@
+# install torch first, matching your CUDA version: https://pytorch.org/get-started/locally/
+torch>=2.4
+diffusers>=0.30
+accelerate
+safetensors
+numpy
+pandas
+pyarrow          # parquet for stats
+matplotlib
+tqdm
+pyyaml
+lpips
+torchmetrics[image]   # FID / CLIP score for quick internal comparisons
+scipy
+pytest
+# optional, for real-kernel speed baselines later:
+# torchao
